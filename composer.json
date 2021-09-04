@@ -1,0 +1,20 @@
+{
+    "name": "fayouz/laminas-grapejs-integration",
+    "description": "Fayouz Laminas GrapeJs Integration",
+    "type": "library",
+    "license": "Apache-2.0",
+    "homepage": "http://www.regaz.fr",
+    "keywords": [
+		"doctrine",
+        "helper"
+    ],
+    "require": {
+        "php": "^8.0",
+        "jms/serializer": "3.14.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fayouz\\Laminas\\GrapeJs\\": "module/src"
+        }
+    }
+}
