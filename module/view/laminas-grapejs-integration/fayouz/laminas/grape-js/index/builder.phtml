@@ -16,7 +16,9 @@ $blocks = array_map(function($block){ return $block->jsonSerialize();}, $this->o
     }
 </style>
 
-<div id="gjs" style="height:0vh; overflow:hidden;"></div>
+<div id="gjs" style="height:0; overflow:hidden;">
+    hello
+</div>
 <div id="blocks"></div>
 <script type="text/javascript">
     const editor = grapesjs.init({
